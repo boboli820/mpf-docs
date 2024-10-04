@@ -20,7 +20,7 @@ MPF works with following platforms:
 
 MPF works with Python 3.8 - 3.11. It runs on 3.12 but has not been extensively tested, so your mileage may vary.
 
-## Simplest Installation: Precompiled Binary (MPF 0.80)
+## Simplest Installation: Precompiled Binary (MPF 0.80) [This Simplest Installation method doesn't seem to work on Silicon Macs - suggest skipping to Standard Installation method]
 
 As of MPF 0.80 we are providing precompiled binaries for new users to get up and running as easily as possible. You can see all the latest binaries at the [MPF Precompiled Binaries](https://github.com/missionpinball/prepackaged-mpf-binaries/tree/main/latest) repository, but here are some links:
 
@@ -66,8 +66,11 @@ After creating your Python 3.8-3.12 virtual environment and activating it, insta
 
     pip install mpf --pre
 ```
+**NOTE: using the --pre command will install the pre-release .80 dev version of MPF. If you want to install the latest stable version, omit the --pre command.**
 
-Now when inside your virtual environment, you can run MPF simply by typing `mpf` while in your machine folder. To update MPF, type `pip install --upgrade mpf`.
+Now when inside your virtual environment, you can run MPF simply by typing `mpf` while in your **machine** folder. Your machine folder is NOT your virtual environment folder. More on creating machine folders is explained later in this guide.
+
+To update MPF, type `pip install --upgrade mpf`.
 
 ***Advantages of Standard Installation:***
 
