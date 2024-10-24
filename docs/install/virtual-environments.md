@@ -32,6 +32,10 @@ call the environment "mpfenv" and put it in our home directory (known as "~").
 
 Or if you want to explicitly define a directory, like this example of an "mpf" virtual environment in a common venvs directory (because remember you can have as many virtual environments as you like):
 
+!!! note
+
+    Windows doesn't use the python3 command. Use python or py intead 
+
 ``` console
   python3 -m venv C:\Users\Rudy\venvs\mpf
 ```
